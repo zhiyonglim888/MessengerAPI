@@ -1,0 +1,86 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div class="row">
+    <div class="col">
+        <div style="margin: 40px 10px 20px 10px;">
+
+            @*<div class="row" style="margin:10px;">
+                    @Model.Message
+                </div>*@
+
+            <form method="post">
+                <div class="row" style="margin:10px;">
+                    <label for="UserName" class="col-sm-2">User:</label>
+                    <input type="text" class="col-sm-5 form-control" name="UserName" value="Mark" autocomplete="off" />
+                </div>
+                <div class="row" style="margin:10px;">
+                    <label for="Message" class="col-sm-2">Message:</label>
+                    <input type="text" class="col-sm-5 form-control" name="Message" value="" autocomplete="off" />
+                </div>
+                <div class="row col-sm-3" style="margin:10px;">
+                    <input type="submit" value="Submit" asp-page-handler="Message" class="btn btn-primary" />
+                </div>
+            </form>
+
+            <hr>
+
+            <ul id="messagesList">
+                @foreach (var message in @Model.messagesList)
+                {
+                    <li>@message</li>
+                }
+            </ul>
+
+        </div>
+    </div>
+    <div class="col">
+        <div style="margin: 40px 10px 20px 10px;">
+
+            <div class="col">
+                <form method="post">
+                    <div class="row col-sm-3" style="margin:10px;">
+                        <input type="submit" value="Join GRoup" asp-page-handler="JoinGroup" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="col">
+                <form method="post">
+                    <div class="row col-sm-3" style="margin:10px;">
+                        <input type="submit" value="New Connection" asp-page-handler="NewConnection" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+
+            <form method="post">
+                <div class="row" style="margin:10px;">
+                    <label for="GroupName" class="col-sm-2">Group:</label>
+                    <input type="text" class="col-sm-5 form-control" name="GroupName" value="GroupOne" autocomplete="off" />
+                </div>
+                <div class="row" style="margin:10px;">
+                    <label for="GroupMessage" class="col-sm-2">Message:</label>
+                    <input type="text" class="col-sm-5 form-control" name="GroupMessage" value="" autocomplete="off" />
+                </div>
+                <div class="row col-sm-3" style="margin:10px;">
+                    <input type="submit" value="Submit" asp-page-handler="GroupMessage" class="btn btn-primary" />
+                </div>
+            </form>
+
+            <hr>
+
+            <ul id="messagesList">
+                @foreach (var message in @Model.groupMessagesList)
+                {
+                    <li>@message</li>
+                }
+            </ul>
+
+        </div>
+    </div>
+
+</div>
