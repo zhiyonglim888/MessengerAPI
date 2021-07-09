@@ -5,11 +5,7 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatroomAPI", "ChatroomAPI\ChatroomAPI.csproj", "{EA67818E-8C30-48C9-8A98-1BD6E1D5D9CA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreClient1", "NetCoreClient1\NetCoreClient1.csproj", "{1F4B2B9A-C9D0-4B9E-B426-AC228C4BAE05}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreClient2", "NetCoreClient2\NetCoreClient2.csproj", "{2457B8ED-65A4-42B8-A601-0B08BAEA64ED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavascriptClient1", "JavascriptClient1\JavascriptClient1.csproj", "{3293E165-4658-43A7-8DD1-DA1EC2DDCEA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavascriptClient1", "JavascriptClient1\JavascriptClient1.csproj", "{3293E165-4658-43A7-8DD1-DA1EC2DDCEA1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavascriptClient2", "JavascriptClient2\JavascriptClient2.csproj", "{AD4C025E-31AF-4850-85A5-374F1C830408}"
 EndProject
@@ -23,14 +19,6 @@ Global
 		{EA67818E-8C30-48C9-8A98-1BD6E1D5D9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA67818E-8C30-48C9-8A98-1BD6E1D5D9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA67818E-8C30-48C9-8A98-1BD6E1D5D9CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F4B2B9A-C9D0-4B9E-B426-AC228C4BAE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F4B2B9A-C9D0-4B9E-B426-AC228C4BAE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F4B2B9A-C9D0-4B9E-B426-AC228C4BAE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F4B2B9A-C9D0-4B9E-B426-AC228C4BAE05}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2457B8ED-65A4-42B8-A601-0B08BAEA64ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2457B8ED-65A4-42B8-A601-0B08BAEA64ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2457B8ED-65A4-42B8-A601-0B08BAEA64ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2457B8ED-65A4-42B8-A601-0B08BAEA64ED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3293E165-4658-43A7-8DD1-DA1EC2DDCEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3293E165-4658-43A7-8DD1-DA1EC2DDCEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3293E165-4658-43A7-8DD1-DA1EC2DDCEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
